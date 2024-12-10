@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      color: #333;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .farm-name {
+      font-size: 24px;
+      font-weight: bold;
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+    .date {
+      font-size: 16px;
+      color: #7f8c8d;
+    }
+    .product-section {
+      margin-bottom: 40px;
+    }
+    .product-header {
+      background-color: #ecf0f1;
+      padding: 10px;
+      font-weight: bold;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 15px;
+    }
+    th, td {
+      border: 1px solid #bdc3c7;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f8f9fa;
+      font-weight: bold;
+    }
+    .order-details {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #666;
+    }
+    .order-details h4 {
+      margin: 0 0 5px 0;
+    }
+    .order-details ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="farm-name">FORGET ME NOT FARM</div>
+    <div class="date">Planting Plan for <?= date ?></div>
+  </div>
+  
+  <?!= plantingSections ?>
+  
+</body>
+</html> 
